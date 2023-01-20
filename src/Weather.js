@@ -60,8 +60,8 @@ function Weather() {
                     </div>
                     <br />
                     <div className='temp'>
-                        <img src={Press} style={{ height: 120 }} />
-                        <Typography variant="h3" color="initial" style={{ paddingLeft: 30 }}>{humidity} Pa</Typography>
+                        <img src={hum} style={{ height: 120 }} />
+                        <Typography variant="h3" color="initial" style={{ paddingLeft: 30 }}>{humidity} %</Typography>
                     </div>
 
                     <div className='btn'>
